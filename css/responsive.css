@@ -16,6 +16,9 @@
     }
 
      /* Banner */
+    .banner_wrapper .banner-title{
+        font-size: 36px;
+    }
     /* .banner_wrapper .learn-more-btn{
         font-size: 50px;
     } */
@@ -61,15 +64,15 @@
     }
 
     /* Banner  */
-    /* .banner_wrapper .learn-more-btn{
-        font-size: 27px;
-    } */
+    .banner_wrapper .learn-more-btn{
+        font-size: 38px;
+    }
     /* About */
 }   
 
 @media (max-width: 767px){
      /* Banner  */
-    /* .banner_wrapper{
+    .banner_wrapper{
         padding: 100px 0 100px;
     }
     .banner_wrapper .row{
@@ -77,7 +80,7 @@
     }
     .banner_wrapper .learn-more-btn-section{
         justify-content: center;
-    } */
+    }
      /* Pricing  */
 
      /* FAQs */
