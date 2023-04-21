@@ -221,6 +221,9 @@ body{
     object-fit: cover;
 }
    /* About */
+.about_wrapper .about_title span{
+    color: var(--text-dark-green);
+}
    /* Feature */
    /* Pricing */
    /* Testimonials */
