@@ -221,10 +221,174 @@ body{
     object-fit: cover;
 }
    /* About */
+.about_wrapper{
+    padding: 100px 0 0;
+}
 .about_wrapper .about_title span{
     color: var(--text-dark-green);
 }
+.about_wrapper .about_number{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 24px;
+    padding: 4px 17px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    max-width: 44px;
+    color: var(--text-white);
+    background-color: var(--bg-dark-green);
+}
+.about_wrapper .about_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    max-width: 1000px;
+    margin-left: 25px;
+    color: var(--text-black);
+}
+.about_wrapper .about_text{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.7;
+    max-width: 700px;
+    color: var(--text-light-2);
+}
+.about_wrapper .innovate{
+    background-color: var(--bg-light-2);
+    padding: 80px 0;
+}
+.about_wrapper .projects{
+    padding: 30px 0;
+}
+.about_wrapper .projects h2{
+    color:  var(--text-orange);
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.about_wrapper .projects p{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+}
    /* Feature */
+.features_wrapper{
+    padding: 100px 0 80px;
+    display: flex;
+    background: var(--bg-light-2);
+}
+.features_wrapper .feature_subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    color: var(--text-light-2);
+}
+.features_wrapper .feature_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.features_wrapper h3{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: var(--bold-font-weight);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--text-black);
+}
+.features_wrapper .features_text{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+}
+.features_wrapper .ft-1{
+    background: var(--bg-feature-1);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-1:before{
+    content: url(../image/consultancy.png);
+    position: absolute;
+    display: block;
+    width: 10px;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.features_wrapper .ft-2{
+    background: var(--bg-feature-2);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-2:before{
+    content: url();
+    position: absolute;
+    display: block;
+    width: 10px;
+    margin-top: -100px;
+    margin-left: -50px;  
+}
+.features_wrapper .ft-3{
+    background: var(--bg-feature-3);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-3:before{
+    content: url();
+    position: absolute;
+    display: block;
+    width: 10px;
+    margin-top: -100px;
+    margin-left: -50px;  
+}
+.features_wrapper .ft-4{
+    background: var(--bg-feature-4);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-4:before{
+    content: url();
+    position: absolute;
+    display: block;
+    width: 10px;
+    margin-top: -100px;
+    margin-left: -50px;  
+}
+.features_wrapper .ft-5{
+    background: var(--bg-feature-5);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-5:before{
+    content: url();
+    position: absolute;
+    display: block;
+    width: 10px;
+    margin-top: -100px;
+    margin-left: -50px;  
+}
+.features_wrapper .ft-6{
+    background: var(--bg-feature-6);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-6:before{
+    content: url();
+    position: absolute;
+    display: block;
+    width: 10px;
+    margin-top: -100px;
+    margin-left: -50px;  
+}
    /* Pricing */
    /* Testimonials */
    /* Brands */

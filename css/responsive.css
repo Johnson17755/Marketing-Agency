@@ -19,9 +19,9 @@
     .banner_wrapper .banner-title{
         font-size: 36px;
     }
-    /* .banner_wrapper .learn-more-btn{
+    .banner_wrapper .learn-more-btn{
         font-size: 50px;
-    } */
+    }
 }
 
 @media (max-width:1070px){
@@ -33,6 +33,9 @@
         font-size: 50px;
     }
         /* About */
+        .about_wrapper .about_title{
+            font-size: 16px;
+        }
 }
 
 @media (max-width:991px){
@@ -68,6 +71,12 @@
         font-size: 38px;
     }
     /* About */
+    .about_wrapper .about_number{
+        margin: 20px auto;
+    }
+    .about_wrapper .about_title{
+        font-size: 24px;
+    }
 }   
 
 @media (max-width: 767px){
