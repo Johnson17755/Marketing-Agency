@@ -91,7 +91,9 @@
         justify-content: center;
     }
      /* Pricing  */
-
+     .free_trial .free_title{
+        font-size: 24px;
+     }
      /* FAQs */
 
      /* Footer */
